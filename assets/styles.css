@@ -1,0 +1,33 @@
+.qcb-chat-buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.qcb-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    width: 180px;
+}
+
+.qcb-btn.messenger {
+    background-color: #0078FF;
+}
+
+.qcb-btn.zalo {
+    background-color: #0068FF;
+}
+
+.qcb-btn i {
+    margin-right: 8px;
+}
